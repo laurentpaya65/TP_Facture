@@ -1,0 +1,9 @@
+org\epita\tpfacture\application\ProduitServiceImpl.class
+org\epita\tpfacture\application\ClientService.class
+org\epita\tpfacture\application\DevisService.class
+org\epita\tpfacture\application\NotFoundException.class
+org\epita\tpfacture\application\ProduitService.class
+org\epita\tpfacture\application\DevisServiceImpl.class
+org\epita\tpfacture\application\FactureServiceImpl.class
+org\epita\tpfacture\application\ClientServiceImpl.class
+org\epita\tpfacture\application\FactureService.class

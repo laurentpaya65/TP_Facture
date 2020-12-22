@@ -1,0 +1,9 @@
+org\epita\tpfacture\infrastructure\ProduitDaoImpl.class
+org\epita\tpfacture\infrastructure\DevisDao.class
+org\epita\tpfacture\infrastructure\FactureDao.class
+org\epita\tpfacture\infrastructure\ClientDao.class
+org\epita\tpfacture\infrastructure\DevisDaoImpl.class
+org\epita\tpfacture\infrastructure\ClientDaoImpl.class
+org\epita\tpfacture\infrastructure\FactureDaoImpl.class
+org\epita\tpfacture\infrastructure\ProduitDao.class
+org\epita\tpfacture\infrastructure\HibernateUtils.class

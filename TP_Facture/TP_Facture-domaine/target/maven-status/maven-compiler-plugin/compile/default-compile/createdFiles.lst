@@ -1,0 +1,7 @@
+org\epita\tpfacture\domaine\Produit.class
+org\epita\tpfacture\domaine\QProduitDevis.class
+org\epita\tpfacture\domaine\Facture.class
+org\epita\tpfacture\domaine\Devis.class
+org\epita\tpfacture\domaine\QProduitFacture.class
+org\epita\tpfacture\domaine\Client.class
+org\epita\tpfacture\domaine\AdressePostale.class

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+	<!-- informations de connection à la database -->
+	    <property name="dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/TP_Facture</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">admin</property>        
+        <!-- Permet d'afficher les requêtes SQL -->
+        <property name="show_sql">true</property>        
+        <!-- Permet à Hibernate de créer les tables depuis les entités -->
+		<property name="hbm2ddl.auto">update</property>
+		<mapping class="org.epita.tpfacture.domaine.Facture" />
+		<mapping class="org.epita.tpfacture.domaine.Produit" />
+		<mapping class="org.epita.tpfacture.domaine.Client" />
+		<mapping class="org.epita.tpfacture.domaine.AdressePostale" />
+		<mapping class="org.epita.tpfacture.domaine.Devis" />
+		<mapping class="org.epita.tpfacture.domaine.QProduitDevis" />
+		<mapping class="org.epita.tpfacture.domaine.QProduitFacture" />
+	</session-factory>
+</hibernate-configuration>
